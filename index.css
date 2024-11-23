@@ -1,3 +1,35 @@
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    color: aliceblue;
+}
+header{
+    background-color: aquamarine;
+    color: white;
+    padding: 20px;
+}
+header h1{
+    font-size: 2em;
+    padding: 10px;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    color: crimson;
+}
+main{
+    padding: 30px;
 }
